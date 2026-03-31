@@ -30,6 +30,16 @@
     "color": "#6b65a4"
   },
   {
+    "lat": -87.5983,
+    "lng": 87.3212,
+    "id": 0,
+    "title": "Шавлія пустельна",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#6b65a4"
+  },
+  {
     "lat": -88.9783,
     "lng": 86.1932,
     "id": 0,
@@ -82,6 +92,16 @@
   {
     "lat": -86.8964,
     "lng": 91.8124,
+    "id": 0,
+    "title": "Кровоцвіт",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -88.6236,
+    "lng": 87.7289,
     "id": 0,
     "title": "Кровоцвіт",
     "description": "Dusty",

@@ -55,7 +55,7 @@ while True:
         print(f"{i}. {name}")
 
     try:
-        choice = int(input("Введи номер: "))
+        choice = int(input("Введи номер рослини: "))
         title = plant_names[choice - 1]
     except:
         print("Неправильний вибір")
