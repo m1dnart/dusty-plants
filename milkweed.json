@@ -1,0 +1,82 @@
+[
+  {
+    "lat": -88.9948,
+    "lng": 86.4961,
+    "id": 0,
+    "title": "Молочай",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -89.6832,
+    "lng": 87.5823,
+    "id": 0,
+    "title": "Молочай",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -89.993,
+    "lng": 88.0441,
+    "id": 0,
+    "title": "Молочай",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -90.3731,
+    "lng": 86.2512,
+    "id": 0,
+    "title": "Молочай",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -87.8283,
+    "lng": 96.3615,
+    "id": 0,
+    "title": "Молочай",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -88.0833,
+    "lng": 96.1615,
+    "id": 0,
+    "title": "Молочай",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -88.213,
+    "lng": 96.2064,
+    "id": 0,
+    "title": "Молочай",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -86.9752,
+    "lng": 91.9447,
+    "id": 0,
+    "title": "Молочай",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  }
+]
