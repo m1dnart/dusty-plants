@@ -1,19 +1,39 @@
 [
   {
-    "lat": -89.1918,
-    "lng": 86.2781,
+    "lat": -90.2175,
+    "lng": 87.7294,
     "id": 0,
-    "title": "Аляскинський Женшень",
+    "title": "Аляскинський женшень",
     "description": "Dusty",
     "shape": "default",
     "icon": "plants",
     "color": "#da220a"
   },
   {
-    "lat": -90.2175,
-    "lng": 87.7294,
+    "lat": -88.6067,
+    "lng": 86.5651,
     "id": 0,
-    "title": "Аляскинський Женшень",
+    "title": "Аляскинський женшень",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -88.1985,
+    "lng": 86.1092,
+    "id": 0,
+    "title": "Аляскинський женшень",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -88.9783,
+    "lng": 86.1932,
+    "id": 0,
+    "title": "Аляскинський женшень",
     "description": "Dusty",
     "shape": "default",
     "icon": "plants",
@@ -50,14 +70,14 @@
     "color": "#6b65a4"
   },
   {
-    "lat": -88.9783,
-    "lng": 86.1932,
+    "lat": -90.0206,
+    "lng": 87.065,
     "id": 0,
-    "title": "Кровоцвіт",
+    "title": "Шавлія пустельна",
     "description": "Dusty",
     "shape": "default",
     "icon": "plants",
-    "color": "#e2941c"
+    "color": "#6b65a4"
   },
   {
     "lat": -87.5792,
@@ -133,11 +153,31 @@
     "lat": -88.9948,
     "lng": 86.4961,
     "id": 0,
-    "title": "Молочай",
+    "title": "Кровоцвіт",
     "description": "Dusty",
     "shape": "default",
     "icon": "plants",
-    "color": "#8539e0"
+    "color": "#e2941c"
+  },
+  {
+    "lat": -88.8821,
+    "lng": 87.5171,
+    "id": 0,
+    "title": "Ахілея",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#ccd700"
+  },
+  {
+    "lat": -88.4193,
+    "lng": 86.2117,
+    "id": 0,
+    "title": "Ахілея",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#ccd700"
   },
   {
     "lat": -89.6832,
@@ -210,8 +250,8 @@
     "color": "#8539e0"
   },
   {
-    "lat": -90.0206,
-    "lng": 87.065,
+    "lat": -88.964,
+    "lng": 87.3261,
     "id": 0,
     "title": "Золотиста смородина",
     "description": "Dusty",
@@ -232,6 +272,26 @@
   {
     "lat": -88.4562,
     "lng": 96.2183,
+    "id": 0,
+    "title": "Золотиста смородина",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da9650"
+  },
+  {
+    "lat": -88.9543,
+    "lng": 86.3809,
+    "id": 0,
+    "title": "Золотиста смородина",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da9650"
+  },
+  {
+    "lat": -89.1918,
+    "lng": 86.2781,
     "id": 0,
     "title": "Золотиста смородина",
     "description": "Dusty",
