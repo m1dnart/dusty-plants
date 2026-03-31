@@ -92,6 +92,10 @@ while True:
     # додаємо новий запис, якщо все ок
     data.append(new_entry)
 
+    # сортуємо за порядком plants_config
+    plant_order = list(plants_config.keys())
+    data.sort(key=lambda x: plant_order.index(x["title"]) if x["title"] in plant_order else len(plant_order))
+
     # записуємо назад у JSON
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
