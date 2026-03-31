@@ -38,7 +38,7 @@ if not os.path.exists(json_file):
         f.write("[]")
 
 while True:
-    text = input("\nВстав текст з координатами: ")
+    text = input("\nВстав текст з координатами (приклад: Latitude: -**.*** / Longitude: **.***): ")
 
     match = re.search(r"Latitude:\s*([-0-9.]+)\s*/\s*Longitude:\s*([-0-9.]+)", text)
 
