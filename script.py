@@ -74,8 +74,9 @@ while True:
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # робимо копію у TXT
-    shutil.copyfile(json_file, txt_file)
+    # компактникй TXT
+    with open(json_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
     print(f"\nДодано: ({lat}, {lng})")
     print(f"Файл {txt_file} оновлено, як копію JSON для мапи.")
