@@ -368,5 +368,25 @@
     "shape": "default",
     "icon": "plants",
     "color": "#da220a"
+  },
+  {
+    "lat": -87.1473,
+    "lng": 84.3398,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -87.0885,
+    "lng": 84.1544,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
   }
 ]

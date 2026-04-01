@@ -74,8 +74,14 @@ while True:
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # компактникй TXT
-    with open(json_file, "w", encoding="utf-8") as f:
+    # копіюємо в TXT
+    shutil.copyfile(json_file, txt_file)
+
+    # перезаписуємо TXT компактно
+    with open(txt_file, "r", encoding="utf-8") as f:
+        txt_data = json.load(f)
+
+    with open(txt_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
     print(f"\nДодано: ({lat}, {lng})")
