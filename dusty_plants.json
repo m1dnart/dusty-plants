@@ -388,5 +388,185 @@
     "shape": "default",
     "icon": "plants",
     "color": "#da220a"
+  },
+  {
+    "lat": -85.5776,
+    "lng": 84.2657,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -87.5983,
+    "lng": 87.3212,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.2824,
+    "lng": 87.6025,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.2873,
+    "lng": 87.4693,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -87.2278,
+    "lng": 88.5021,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -87.2993,
+    "lng": 88.4376,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -87.3341,
+    "lng": 88.922,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -87.2188,
+    "lng": 88.8711,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.9858,
+    "lng": 89.0315,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.8053,
+    "lng": 90.8499,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.6687,
+    "lng": 90.9493,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -87.0166,
+    "lng": 90.9455,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.8242,
+    "lng": 91.2785,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.468,
+    "lng": 91.2128,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.8964,
+    "lng": 91.8124,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.9752,
+    "lng": 91.9447,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -87.2006,
+    "lng": 91.9879,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
+  },
+  {
+    "lat": -86.9391,
+    "lng": 92.2482,
+    "id": 0,
+    "title": "Plant",
+    "description": "Dusty",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#da220a"
   }
 ]
