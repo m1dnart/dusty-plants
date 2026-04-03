@@ -998,38 +998,8 @@
     "color": "#80d81b"
   },
   {
-    "lat": -80.6962,
-    "lng": 142.6919,
-    "id": 0,
-    "title": "Рослина",
-    "description": "Зона потрібних рослин. Без конкретики.",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#80d81b"
-  },
-  {
     "lat": -80.6419,
     "lng": 142.847,
-    "id": 0,
-    "title": "Рослина",
-    "description": "Зона потрібних рослин. Без конкретики.",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#80d81b"
-  },
-  {
-    "lat": -80.4036,
-    "lng": 142.5455,
-    "id": 0,
-    "title": "Рослина",
-    "description": "Зона потрібних рослин. Без конкретики.",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#80d81b"
-  },
-  {
-    "lat": -80.1814,
-    "lng": 142.2414,
     "id": 0,
     "title": "Рослина",
     "description": "Зона потрібних рослин. Без конкретики.",
@@ -1466,5 +1436,32 @@
     "shape": "default",
     "icon": "plants",
     "color": "#80d81b"
+  },
+  {
+    "lat": -80.6962,
+    "lng": 142.6919,
+    "title": "Мімоза соромлива",
+    "description": "Зона мімози соромливої.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e595cd"
+  },
+  {
+    "lat": -80.4036,
+    "lng": 142.5455,
+    "title": "Мімоза соромлива",
+    "description": "Зона мімози соромливої.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e595cd"
+  },
+  {
+    "lat": -80.1814,
+    "lng": 142.2414,
+    "title": "Мімоза соромлива",
+    "description": "Зона мімози соромливої.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e595cd"
   }
 ]
