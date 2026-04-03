@@ -117,7 +117,11 @@ def main():
 
         if duplicate_index is not None:
             print(f"\nТака точка вже існує: {data[duplicate_index]['title']} ({new_entry['lat']}, {new_entry['lng']})")
-            action = input("Enter - перезаписати, del - видалити, будь-який інший текст - пропустити: ").strip().lower()
+            action = (
+                input("Enter – перезаписати, напиши 'del' – видалити, будь-який інший текст – пропустити: ")
+                .strip()
+                .lower()
+            )
             if action == "":
                 data[duplicate_index] = new_entry
                 print("Запис перезаписано")

@@ -998,16 +998,6 @@
     "color": "#80d81b"
   },
   {
-    "lat": -80.6419,
-    "lng": 142.847,
-    "id": 0,
-    "title": "Рослина",
-    "description": "Зона потрібних рослин. Без конкретики.",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#80d81b"
-  },
-  {
     "lat": -72.1186,
     "lng": 151.7549,
     "id": 0,
@@ -1436,6 +1426,15 @@
     "shape": "default",
     "icon": "plants",
     "color": "#80d81b"
+  },
+  {
+    "lat": -80.6419,
+    "lng": 142.847,
+    "title": "Мімоза соромлива",
+    "description": "Зона мімози соромливої.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e595cd"
   },
   {
     "lat": -80.6962,
