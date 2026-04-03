@@ -1,862 +1,1470 @@
 [
   {
+    "lat": -89.2603,
+    "lng": 86.0286,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -87.2993,
+    "lng": 88.4376,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
     "lat": -87.9692,
     "lng": 85.347,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.9738,
     "lng": 85.1283,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.8083,
     "lng": 85.0404,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.0635,
     "lng": 84.8872,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.0734,
     "lng": 85.202,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.4649,
     "lng": 84.5025,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.3891,
     "lng": 84.2711,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.2088,
     "lng": 84.1069,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -85.7561,
     "lng": 84.1917,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -85.3862,
     "lng": 84.2059,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -85.3946,
     "lng": 84.4247,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -85.6456,
     "lng": 84.3728,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -85.8022,
     "lng": 84.4941,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.1985,
     "lng": 86.1092,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.4193,
     "lng": 86.2117,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.6067,
     "lng": 86.5651,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.9948,
     "lng": 86.4961,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.9543,
     "lng": 86.3809,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.9783,
     "lng": 86.1932,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -89.1918,
     "lng": 86.2781,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
-  },
-  {
-    "lat": -89.2603,
-    "lng": 86.0286,
-    "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -89.1185,
     "lng": 85.899,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.964,
     "lng": 87.3261,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.8821,
     "lng": 87.5171,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.6236,
     "lng": 87.7289,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -89.1833,
     "lng": 87.8755,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.8616,
     "lng": 88.1567,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -89.2628,
     "lng": 89.4104,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.9683,
     "lng": 89.5336,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.8093,
     "lng": 89.6307,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.6195,
     "lng": 89.5008,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.8944,
     "lng": 90.3505,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.3143,
     "lng": 91.0331,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.0739,
     "lng": 90.9515,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -88.015,
     "lng": 90.7781,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.8802,
     "lng": 90.9449,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.5099,
     "lng": 91.311,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.1473,
     "lng": 84.3398,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.0885,
     "lng": 84.1544,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -85.5776,
     "lng": 84.2657,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.5983,
     "lng": 87.3212,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.2824,
     "lng": 87.6025,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.2873,
     "lng": 87.4693,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.2278,
     "lng": 88.5021,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
-  },
-  {
-    "lat": -87.2993,
-    "lng": 88.4376,
-    "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.3341,
     "lng": 88.922,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.2188,
     "lng": 88.8711,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.9858,
     "lng": 89.0315,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.8053,
     "lng": 90.8499,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.6687,
     "lng": 90.9493,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.0166,
     "lng": 90.9455,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.8242,
     "lng": 91.2785,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.468,
     "lng": 91.2128,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.8964,
     "lng": 91.8124,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.9752,
     "lng": 91.9447,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -87.2006,
     "lng": 91.9879,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -86.9391,
     "lng": 92.2482,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -80.3639,
     "lng": 97.0143,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -80.1049,
     "lng": 97.1815,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -80.2404,
     "lng": 97.3068,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -79.8054,
     "lng": 97.8778,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -79.4222,
     "lng": 97.8738,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -80.2468,
     "lng": 98.6411,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -80.3176,
     "lng": 98.7203,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -80.2582,
     "lng": 98.8189,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -79.1613,
     "lng": 96.5672,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.9139,
     "lng": 96.4464,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.8513,
     "lng": 96.2754,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.812,
     "lng": 96.0159,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.1934,
     "lng": 95.198,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -77.9454,
     "lng": 95.3618,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -77.8061,
     "lng": 95.3218,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -77.7746,
     "lng": 95.1642,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.0056,
     "lng": 95.0395,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.2626,
     "lng": 94.654,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.0109,
     "lng": 94.4784,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.0592,
     "lng": 94.3581,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.3508,
     "lng": 94.3223,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.4452,
     "lng": 93.6256,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.2246,
     "lng": 93.6341,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.6149,
     "lng": 93.5763,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -78.4297,
     "lng": 93.3875,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
-  },
-  {
-    "lat": -86.2766,
-    "lng": 143.0248,
-    "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#da220a"
-  },
-  {
-    "lat": -86.1911,
-    "lng": 142.9507,
-    "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#da220a"
-  },
-  {
-    "lat": -86.0647,
-    "lng": 143.0356,
-    "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
   },
   {
     "lat": -77.8845,
     "lng": 145.1406,
     "id": 0,
-    "title": "Plant",
-    "description": "Dusty",
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
     "shape": "default",
     "icon": "plants",
-    "color": "#da220a"
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.1687,
+    "lng": 145.5254,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.1606,
+    "lng": 145.8632,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -77.9614,
+    "lng": 146.1227,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.2081,
+    "lng": 146.4583,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -77.9701,
+    "lng": 146.5347,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.007,
+    "lng": 147.0339,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -77.8385,
+    "lng": 147.1142,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -77.5861,
+    "lng": 146.9794,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -77.4305,
+    "lng": 147.0618,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.2665,
+    "lng": 147.9219,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.2909,
+    "lng": 148.1974,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -79.1002,
+    "lng": 143.6672,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.9546,
+    "lng": 143.6328,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.7558,
+    "lng": 143.4521,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -78.5882,
+    "lng": 143.2282,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -79.7407,
+    "lng": 143.3412,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -80.4483,
+    "lng": 143.1145,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -80.6962,
+    "lng": 142.6919,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -80.6419,
+    "lng": 142.847,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -80.4036,
+    "lng": 142.5455,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -80.1814,
+    "lng": 142.2414,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -72.1186,
+    "lng": 151.7549,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -72.0461,
+    "lng": 152.3406,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -71.5234,
+    "lng": 152.4312,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -71.6639,
+    "lng": 150.9106,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -71.8098,
+    "lng": 151.1655,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -71.2791,
+    "lng": 152.3093,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -71.2097,
+    "lng": 150.3536,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -71.2425,
+    "lng": 150.0892,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -69.9221,
+    "lng": 152.3139,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -69.5594,
+    "lng": 152.2221,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -69.4504,
+    "lng": 152.395,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -69.5393,
+    "lng": 152.0287,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -69.4814,
+    "lng": 151.8462,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.3468,
+    "lng": 151.4416,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.2335,
+    "lng": 151.766,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.1988,
+    "lng": 152.0261,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.723,
+    "lng": 153.013,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.5248,
+    "lng": 152.9069,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.8675,
+    "lng": 153.0723,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.464,
+    "lng": 153.6229,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.3008,
+    "lng": 153.7657,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.6865,
+    "lng": 150.8998,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -68.223,
+    "lng": 150.767,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.9503,
+    "lng": 149.0702,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.6184,
+    "lng": 149.5833,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.3252,
+    "lng": 149.7253,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.2923,
+    "lng": 150.084,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.4375,
+    "lng": 150.2031,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.2859,
+    "lng": 150.5804,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -68.0116,
+    "lng": 147.7807,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.8218,
+    "lng": 148.0051,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.5222,
+    "lng": 147.8516,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.3069,
+    "lng": 148.0559,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.0176,
+    "lng": 148.1804,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -67.0074,
+    "lng": 147.8205,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -65.9787,
+    "lng": 148.4841,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -65.9896,
+    "lng": 148.2564,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -66.1099,
+    "lng": 148.064,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -65.0036,
+    "lng": 148.1902,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -64.9205,
+    "lng": 148.2602,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -63.3799,
+    "lng": 149.6847,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -63.3465,
+    "lng": 149.4174,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -63.6531,
+    "lng": 149.6802,
+    "id": 0,
+    "title": "Рослина",
+    "description": "Зона потрібних рослин. Без конкретики.",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
   }
 ]
