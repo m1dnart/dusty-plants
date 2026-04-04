@@ -32,7 +32,7 @@ def create_session_file(folder="dates"):
     os.makedirs(folder, exist_ok=True)
     filename = f"{folder}/{datetime.now().strftime('%d-%m-%Y_%H-%M')}.txt"
     with open(filename, "w", encoding="utf-8") as f:
-        f.write("")
+        json.dump([], f, ensure_ascii=False, separators=(",", ":"))  # порожній масив
     return filename
 
 
@@ -61,22 +61,21 @@ def get_new_entry(plants):
         lng = float(match.group(2))
         break
 
-    print("\nОбери рослину або просто натисни Enter, щоб позначити 'Відвідано':")
+    # Вибір рослини
+    print("\nОберіть рослину або просто натисніть Enter, щоб позначити 'Відвідано':")
     for i, name in enumerate(plant_names, 1):
         print(f"{i}. {name}")
 
     while True:
+        plant_choice = print("\nВведи номер рослини: ").strip()
         if plant_choice == "":
             title = "Відвідано"
             break
         try:
-            plant_choice = int(input("Введи номер рослини: "))
-            title = plant_names[plant_choice - 1]
+            title = plant_names[int(plant_choice) - 1]
             break
         except (ValueError, IndexError):
             print("Неправильний вибір. Ще разок.")
-
-    plant_color = plants.get(title, {}).get("color", "#000000")
 
     return {
         "lat": lat,
@@ -85,7 +84,7 @@ def get_new_entry(plants):
         "description": f"Додано: {datetime.now().strftime('%d.%m.%Y %H:%M')}",
         "shape": "default",
         "icon": "plants",
-        "color": plant_color,
+        "color": plants.get(title, {}).get("color", "#000000"),
     }
 
 
@@ -117,7 +116,10 @@ def main():
     plants = load_plants()
     data = load_data()
     session_file = create_session_file()
-    session_data = []
+
+    # завантажуємо порожній масив з файлу сесії
+    with open(session_file, "r", encoding="utf-8") as f:
+        session_data = json.load(f)
 
     while True:
         new_entry = get_new_entry(plants)
