@@ -39,6 +39,7 @@ def create_session_file(folder="dates"):
 def update_session_file(session_file, data):
     with open(session_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+    print(f"Файл сесії {session_file} оновлено")
 
 
 def save_data(data):
@@ -125,8 +126,9 @@ def main():
     plants = load_plants()
     data = load_data()
     session_file = create_session_file()
+    update_session_file(session_file, data)  # синхронізація сесії
 
-    # синхронізація описів та кольорів
+    # синхронізація кольорів
     data, updated = sync_plant_info(data, plants)
     save_data(data)
     if updated:
@@ -143,34 +145,23 @@ def main():
 
         if duplicate_index is not None:
             print(f"\nТака точка вже існує: {data[duplicate_index]['title']} ({new_entry['lat']}, {new_entry['lng']})")
-            action = (
-                input("Enter – перезаписати, напиши 'del' – видалити, будь-який інший текст – пропустити: ")
-                .strip()
-                .lower()
-            )
+            action = input("Enter – перезаписати, напиши 'del' – видалити, все інше – пропустити: ").strip().lower()
             if action == "":
                 data[duplicate_index] = new_entry
                 print("Запис перезаписано")
-                data = update_and_save_data(data, plants)
-                continue
-
             elif action == "del":  # elif це наступний крок
                 removed_item = data.pop(duplicate_index)
                 print(f"Запис видалено: {removed_item['title']} ({removed_item['lat']}, {removed_item['lng']})")
-                data = update_and_save_data(data, plants)
-                continue
-
             else:
                 print("Запис залишено без змін")
-                continue
+                continue  # перехід до наступного введення
         else:
             data.append(new_entry)
+            print(f"\nДодано: ({new_entry['lat']}, {new_entry['lng']})")
 
         data = update_and_save_data(data, plants)
-        update_session_file(session_file, data)  # синхронізація сесії
-
-        print(f"\nДодано: ({new_entry['lat']}, {new_entry['lng']})")
-        print(f"Файл {txt_file} оновлено, як копію JSON для мапи.")
+        update_session_file(session_file, data)  # синхронізуємо сесію
+        print(f"Файл {txt_file} та {json_file} оновлено")
 
 
 if __name__ == "__main__":

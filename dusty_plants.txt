@@ -1,1 +1,0 @@
-[{"lat":-60.5768,"lng":124.5373,"title":"Американський женшень","description":"Додано: 04.04.2026 16:28","shape":"default","icon":"plants","color":"#c41e1e"}]
