@@ -16,17 +16,22 @@ def load_plants():
 
 def load_data():
     if not os.path.exists(json_file):
-        with open(json_file, "w", encoding="utf-8") as f:
+        with open(json_file, "w", encoding="utf-8") as f:  # якщо немає, то створює json (dusty_tales.json)
             json.dump([], f, ensure_ascii=False)
-    with open(json_file, "r", encoding="utf-8") as f:
+    with open(json_file, "r", encoding="utf-8") as f:  # читання json
         return json.load(f)
+
+
+def sync_txt_with_json(data):
+    with open(txt_file, "w", encoding="utf-8") as f:  # по суті створення txt, на основі data
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
 
 def save_data(data):
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    with open(txt_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+
+    sync_txt_with_json(data)
 
 
 def sync_plant_info(data, plants):
@@ -96,20 +101,29 @@ def sort_data(data, plants):
     return data
 
 
+def update_and_save_data(data, plants):
+    data = remove_duplicates(data)
+    data = sort_data(data, plants)
+    save_data(data)
+    return data
+
+
 def main():
     plants = load_plants()
     data = load_data()
 
-    # Синхронізація описів та кольорів
+    # синхронізація описів та кольорів
     data, updated = sync_plant_info(data, plants)
     if updated:
         save_data(data)
-        print(f"Файл {json_file} оновлено: виправлені описи та кольори рослин.")
+        print(f"Файл {json_file} оновлено.")
+    else:
+        sync_txt_with_json(data)  # навіть якщо нічого не змінилось
 
     while True:
         new_entry = get_new_entry(plants)
 
-        # Перевірка на дублікат
+        # перевірка на дублікат
         duplicate_index = next(
             (i for i, item in enumerate(data) if item["lat"] == new_entry["lat"] and item["lng"] == new_entry["lng"]),
             None,
@@ -125,19 +139,22 @@ def main():
             if action == "":
                 data[duplicate_index] = new_entry
                 print("Запис перезаписано")
-            elif action == "del":
+                data = update_and_save_data(data, plants)
+                continue
+
+            elif action == "del":  # elif це наступний крок
                 removed_item = data.pop(duplicate_index)
                 print(f"Запис видалено: {removed_item['title']} ({removed_item['lat']}, {removed_item['lng']})")
+                data = update_and_save_data(data, plants)
                 continue
+
             else:
                 print("Запис залишено без змін")
                 continue
         else:
             data.append(new_entry)
 
-        data = remove_duplicates(data)
-        data = sort_data(data, plants)
-        save_data(data)
+        data = update_and_save_data(data, plants)
 
         print(f"\nДодано: ({new_entry['lat']}, {new_entry['lng']})")
         print(f"Файл {txt_file} оновлено, як копію JSON для мапи.")
