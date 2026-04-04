@@ -61,19 +61,22 @@ def get_new_entry(plants):
         lng = float(match.group(2))
         break
 
-    print("\nОберіть рослину:")
-    for i, name in enumerate(plant_names):
+    print("\nОбери рослину або просто натисни Enter, щоб позначити 'Відвідано':")
+    for i, name in enumerate(plant_names, 1):
         print(f"{i}. {name}")
 
     while True:
+        if plant_choice == "":
+            title = "Відвідано"
+            break
         try:
             plant_choice = int(input("Введи номер рослини: "))
-            title = plant_names[plant_choice]
+            title = plant_names[plant_choice - 1]
             break
         except (ValueError, IndexError):
-            print("Неправильний вибір. Спробуйте ще раз.")
+            print("Неправильний вибір. Ще разок.")
 
-    plant = plants[title]
+    plant_color = plants.get(title, {}).get("color", "#000000")
 
     return {
         "lat": lat,
@@ -82,7 +85,7 @@ def get_new_entry(plants):
         "description": f"Додано: {datetime.now().strftime('%d.%m.%Y %H:%M')}",
         "shape": "default",
         "icon": "plants",
-        "color": plant["color"],
+        "color": plant_color,
     }
 
 
