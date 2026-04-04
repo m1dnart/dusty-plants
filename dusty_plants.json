@@ -1,0 +1,74 @@
+[
+  {
+    "lat": -85.0723,
+    "lng": 73.0953,
+    "title": "Корисна рослина",
+    "description": "Додано: 04.04.2026 21:45",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#80d81b"
+  },
+  {
+    "lat": -83.8384,
+    "lng": 75.8692,
+    "title": "Американський женшень",
+    "description": "Додано: 04.04.2026 19:45",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#c41e1e"
+  },
+  {
+    "lat": -83.9736,
+    "lng": 75.9066,
+    "title": "Американський женшень",
+    "description": "Додано: 04.04.2026 19:47",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#c41e1e"
+  },
+  {
+    "lat": -85.408,
+    "lng": 77.2218,
+    "title": "Американський женшень",
+    "description": "Додано: 04.04.2026 19:49",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#c41e1e"
+  },
+  {
+    "lat": -84.5564,
+    "lng": 75.223,
+    "title": "Американський женшень",
+    "description": "Додано: 04.04.2026 19:52",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#c41e1e"
+  },
+  {
+    "lat": -86.4896,
+    "lng": 76.3727,
+    "title": "Американський женшень",
+    "description": "Додано: 04.04.2026 20:02",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#c41e1e"
+  },
+  {
+    "lat": -86.8971,
+    "lng": 75.7657,
+    "title": "Американський женшень",
+    "description": "Додано: 04.04.2026 20:09",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#c41e1e"
+  },
+  {
+    "lat": -84.968,
+    "lng": 72.6402,
+    "title": "Американський женшень",
+    "description": "Додано: 04.04.2026 20:20",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#c41e1e"
+  }
+]

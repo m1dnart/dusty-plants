@@ -5,13 +5,13 @@ from datetime import datetime
 
 json_file = "dusty_plants.json"
 txt_file = "dusty_plants.txt"
-plants_file = "plants.json"
+plants_info_file = "plants_info.json"
 
 
 def load_plants():
-    if not os.path.exists(plants_file):
-        raise FileNotFoundError(f"{plants_file} не знайдено!")
-    with open(plants_file, "r", encoding="utf-8") as f:
+    if not os.path.exists(plants_info_file):
+        raise FileNotFoundError(f"{plants_info_file} не знайдено!")
+    with open(plants_info_file, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -36,9 +36,9 @@ def create_session_file(folder="dates"):
     return filename
 
 
-def update_session_file(session_file, data):
+def update_session_file(session_file, session_data):
     with open(session_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+        json.dump(session_data, f, ensure_ascii=False, separators=(",", ":"))
     print(f"Файл сесії {session_file} оновлено")
 
 
@@ -47,18 +47,6 @@ def save_data(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     sync_txt_with_json(data)
-
-
-def sync_plant_info(data, plants):
-    updated = False
-    for item in data:
-        title = item["title"]
-        if title in plants:
-            plant_info = plants[title]
-            if item.get("color") != plant_info["color"]:
-                item["color"] = plant_info["color"]
-                updated = True
-    return data, updated
 
 
 def get_new_entry(plants):
@@ -74,13 +62,13 @@ def get_new_entry(plants):
         break
 
     print("\nОберіть рослину:")
-    for i, name in enumerate(plant_names, 1):
+    for i, name in enumerate(plant_names):
         print(f"{i}. {name}")
 
     while True:
         try:
             plant_choice = int(input("Введи номер рослини: "))
-            title = plant_names[plant_choice - 1]
+            title = plant_names[plant_choice]
             break
         except (ValueError, IndexError):
             print("Неправильний вибір. Спробуйте ще раз.")
@@ -126,18 +114,12 @@ def main():
     plants = load_plants()
     data = load_data()
     session_file = create_session_file()
-    update_session_file(session_file, data)  # синхронізація сесії
-
-    # синхронізація кольорів
-    data, updated = sync_plant_info(data, plants)
-    save_data(data)
-    if updated:
-        print(f"Файл {json_file} оновлено.")
+    session_data = []
 
     while True:
         new_entry = get_new_entry(plants)
 
-        # перевірка на дублікат
+        # знайти дублікат
         duplicate_index = next(
             (i for i, item in enumerate(data) if item["lat"] == new_entry["lat"] and item["lng"] == new_entry["lng"]),
             None,
@@ -148,20 +130,30 @@ def main():
             action = input("Enter – перезаписати, напиши 'del' – видалити, все інше – пропустити: ").strip().lower()
             if action == "":
                 data[duplicate_index] = new_entry
+                session_data = [
+                    item for item in session_data if (item["lat"], item["lng"]) != (new_entry["lat"], new_entry["lng"])
+                ]  # відкидується співпадаючий запис
+                session_data.append(new_entry)  # додається новий
                 print("Запис перезаписано")
             elif action == "del":  # elif це наступний крок
                 removed_item = data.pop(duplicate_index)
+                session_data = [
+                    item
+                    for item in session_data
+                    if (item["lat"], item["lng"]) != (removed_item["lat"], removed_item["lng"])
+                ]
                 print(f"Запис видалено: {removed_item['title']} ({removed_item['lat']}, {removed_item['lng']})")
             else:
                 print("Запис залишено без змін")
                 continue  # перехід до наступного введення
         else:
             data.append(new_entry)
+            session_data.append(new_entry)
             print(f"\nДодано: ({new_entry['lat']}, {new_entry['lng']})")
 
         data = update_and_save_data(data, plants)
-        update_session_file(session_file, data)  # синхронізуємо сесію
-        print(f"Файл {txt_file} та {json_file} оновлено")
+        update_session_file(session_file, session_data)  # синхронізуємо сесію
+        print(f"Файл {json_file}, {txt_file} та файл сесії {session_file} оновлено")
 
 
 if __name__ == "__main__":
