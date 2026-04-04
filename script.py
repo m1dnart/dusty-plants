@@ -67,7 +67,7 @@ def get_new_entry(plants):
         print(f"{i}. {name}")
 
     while True:
-        plant_choice = print("\nВведи номер рослини: ").strip()
+        plant_choice = input("\nВведи номер рослини: ").strip()
         if plant_choice == "":
             title = "Відвідано"
             break
