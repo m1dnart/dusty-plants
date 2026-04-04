@@ -1,6 +1,7 @@
 import re
 import json
 import os
+from datetime import datetime
 
 json_file = "dusty_plants.json"
 txt_file = "dusty_plants.txt"
@@ -27,6 +28,19 @@ def sync_txt_with_json(data):
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
 
+def create_session_file(folder="dates"):
+    os.makedirs(folder, exist_ok=True)
+    filename = f"{folder}/{datetime.now().strftime('%d-%m-%Y_%H-%M')}.txt"
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("")
+    return filename
+
+
+def update_session_file(session_file, data):
+    with open(session_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+
+
 def save_data(data):
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
@@ -40,8 +54,7 @@ def sync_plant_info(data, plants):
         title = item["title"]
         if title in plants:
             plant_info = plants[title]
-            if item.get("description") != plant_info["description"] or item.get("color") != plant_info["color"]:
-                item["description"] = plant_info["description"]
+            if item.get("color") != plant_info["color"]:
                 item["color"] = plant_info["color"]
                 updated = True
     return data, updated
@@ -77,7 +90,7 @@ def get_new_entry(plants):
         "lat": lat,
         "lng": lng,
         "title": title,
-        "description": plant["description"],
+        "description": f"Додано: {datetime.now().strftime('%d.%m.%Y %H:%M')}",
         "shape": "default",
         "icon": "plants",
         "color": plant["color"],
@@ -111,14 +124,13 @@ def update_and_save_data(data, plants):
 def main():
     plants = load_plants()
     data = load_data()
+    session_file = create_session_file()
 
     # синхронізація описів та кольорів
     data, updated = sync_plant_info(data, plants)
+    save_data(data)
     if updated:
-        save_data(data)
         print(f"Файл {json_file} оновлено.")
-    else:
-        sync_txt_with_json(data)  # навіть якщо нічого не змінилось
 
     while True:
         new_entry = get_new_entry(plants)
@@ -155,6 +167,7 @@ def main():
             data.append(new_entry)
 
         data = update_and_save_data(data, plants)
+        update_session_file(session_file, data)  # синхронізація сесії
 
         print(f"\nДодано: ({new_entry['lat']}, {new_entry['lng']})")
         print(f"Файл {txt_file} оновлено, як копію JSON для мапи.")
