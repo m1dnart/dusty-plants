@@ -110,7 +110,10 @@ def update_and_save_data(data, plants):
     data = remove_duplicates(data)
     data = sort_data(data, plants)
 
-    data, _ = sync_colors(data, plants)
+    # синхронізація кольорів перед збереженням
+    data, colors_updated = sync_colors(data, plants)
+    if colors_updated:
+        print("Кольори рослин оновлено")
 
     save_data(data)
     return data
@@ -121,9 +124,10 @@ def main():
     data = load_data()
 
     # синхронізація кольорів при запуску
-    data, updated = sync_colors(data, plants)
-    if updated:
-        save_data(data)
+    data, colors_updated = sync_colors(data, plants)
+    if colors_updated:
+        print("Кольори рослин синхронізовано при запуску")
+        save_data(data)  # збереження синхронізованих кольорів у файли
 
     # синхронізація txt при запуску
     sync_txt_with_json(data)
