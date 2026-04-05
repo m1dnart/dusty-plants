@@ -7,6 +7,8 @@ json_file = "dusty_plants.json"
 txt_file = "dusty_plants.txt"
 plants_info_file = "plants_info.json"
 
+RESTART_HOURS = [0, 6, 12, 18]
+
 
 def load_plants():
     if not os.path.exists(plants_info_file):
@@ -28,12 +30,44 @@ def sync_txt_with_json(data):
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
 
 
-def create_session_file(folder="dates"):
+def get_time_slot(now):
+    hour = now.hour
+    # сортування рестартів
+    hours = sorted(RESTART_HOURS)
+
+    for i in range(len(hours)):
+        start = hours[i]
+        end = hours[(i + 1) % len(hours)]
+
+        if start < end:
+            if start <= hour < end:
+                return f"{start:02d}-{end:02d}"
+
+        else:
+            # нічний перехід (наприклад 18 => 00)
+            if hour >= start or hour < end:
+                return f"{start:02d}-{end:02d}"
+
+
+def get_session_file(folder="sessions"):
     os.makedirs(folder, exist_ok=True)
-    filename = f"{folder}/{datetime.now().strftime('%d-%m-%Y_%H-%M')}.txt"
+
+    now = datetime.now()
+    date_str = now.strftime("%d-%m-%Y")
+    slot = get_time_slot(now)
+
+    filename = f"{folder}/{date_str}_{slot}.txt"
+
+    # якщо файл існує — просто читає
+    if os.path.exists(filename):
+        with open(filename, "r", encoding="utf-8") as f:
+            return filename, json.load(f)
+
+    # якщо нема — створює новий
     with open(filename, "w", encoding="utf-8") as f:
-        json.dump([], f, ensure_ascii=False, separators=(",", ":"))  # порожній масив
-    return filename
+        json.dump([], f, ensure_ascii=False, separators=(",", ":"))
+
+    return filename, []
 
 
 def update_session_file(session_file, session_data):
@@ -115,11 +149,7 @@ def update_and_save_data(data, plants):
 def main():
     plants = load_plants()
     data = load_data()
-    session_file = create_session_file()
-
-    # завантажуємо порожній масив з файлу сесії
-    with open(session_file, "r", encoding="utf-8") as f:
-        session_data = json.load(f)
+    session_file, session_data = get_session_file()
 
     while True:
         new_entry = get_new_entry(plants)
