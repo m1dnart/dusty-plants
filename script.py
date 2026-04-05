@@ -25,6 +25,13 @@ def load_data():
         return json.load(f)
 
 
+def save_data(data):
+    with open(json_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    sync_txt_with_json(data)
+
+
 def sync_txt_with_json(data):
     with open(txt_file, "w", encoding="utf-8") as f:  # по суті створення txt, на основі data
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
@@ -74,13 +81,6 @@ def update_session_file(session_file, session_data):
     with open(session_file, "w", encoding="utf-8") as f:
         json.dump(session_data, f, ensure_ascii=False, separators=(",", ":"))
     print(f"Файл сесії {session_file} оновлено")
-
-
-def save_data(data):
-    with open(json_file, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-    sync_txt_with_json(data)
 
 
 def get_new_entry(plants):
