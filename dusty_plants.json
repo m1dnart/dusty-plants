@@ -799,14 +799,5 @@
     "shape": "default",
     "icon": "plants",
     "color": "#000000"
-  },
-  {
-    "lat": -87.6625,
-    "lng": 75.4762,
-    "title": "Відвідано",
-    "description": "Додано: 05.04.2026 05:05",
-    "shape": "default",
-    "icon": "plants",
-    "color": "#000000"
   }
 ]
