@@ -7,21 +7,22 @@ json_file = "dusty_plants.json"
 txt_file = "dusty_plants.txt"
 plants_info_file = "plants_info.json"
 
-restart_hours = "restart_hours.json"
+restart_hours_file = "restart_hours.json"
 
 
-def load_config():
-    if not os.path.exists(restart_hours):
+def load_restart_hours():
+    if not os.path.exists(restart_hours_file):
         # дефолт якщо файлу нема
         default_config = {"RESTART_HOURS": ["00:00"]}
-        with open(restart_hours, "w", encoding="utf-8") as f:
+        with open(restart_hours_file, "w", encoding="utf-8") as f:
             json.dump(default_config, f, ensure_ascii=False, indent=2)
         return default_config
 
-    with open(restart_hours, "r", encoding="utf-8") as f:
+    with open(restart_hours_file, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
+restart_hours = load_restart_hours()
 RESTART_HOURS = restart_hours.get("RESTART_HOURS", ["00:00"])
 
 
