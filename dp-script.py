@@ -7,24 +7,6 @@ json_file = "dusty_plants.json"
 txt_file = "dusty_plants.txt"
 plants_info_file = "plants_info.json"
 
-restart_hours_file = "restart_hours.json"
-
-
-def load_restart_hours():
-    if not os.path.exists(restart_hours_file):
-        # дефолт якщо файлу нема
-        default_config = {"RESTART_HOURS": ["00:00"]}
-        with open(restart_hours_file, "w", encoding="utf-8") as f:
-            json.dump(default_config, f, ensure_ascii=False, indent=2)
-        return default_config
-
-    with open(restart_hours_file, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-restart_hours = load_restart_hours()
-RESTART_HOURS = restart_hours.get("RESTART_HOURS", ["00:00"])
-
 
 def load_plants():
     if not os.path.exists(plants_info_file):
@@ -68,33 +50,11 @@ def sync_colors(data, plants):
     return data, updated
 
 
-def get_time_slot(now):
-    hour = now.hour
-    # сортування рестартів
-    hours = sorted(RESTART_HOURS)
-
-    for i in range(len(hours)):
-        start = hours[i]
-        end = hours[(i + 1) % len(hours)]
-
-        if start < end:
-            if start <= hour < end:
-                return f"{start:02d}-{end:02d}"
-
-        else:
-            # нічний перехід (наприклад 18 => 00)
-            if hour >= start or hour < end:
-                return f"{start:02d}-{end:02d}"
-
-
 def get_session_file(folder="sessions"):
     os.makedirs(folder, exist_ok=True)
 
-    now = datetime.now()
-    date_str = now.strftime("%d-%m-%Y")
-    slot = get_time_slot(now)
-
-    filename = f"{folder}/{date_str}_{slot}.txt"
+    date_str = datetime.now().strftime("%d-%m-%Y")
+    filename = f"{folder}/{date_str}.txt"
 
     # якщо файл існує — просто читає
     if os.path.exists(filename):
