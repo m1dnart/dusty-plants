@@ -159,7 +159,7 @@ def update_and_save_data(data, plants):
     data = sort_data(data, plants)
 
     # синхронізація кольорів перед збереженням
-    data, colors_updated = sync_colors(data, plants)
+    data, _ = sync_colors(data, plants)
 
     save_data(data)
     return data
