@@ -1529,6 +1529,42 @@
     "color": "#bd3511"
   },
   {
+    "lat": -42.4805,
+    "lng": 141.1806,
+    "title": "Американський женшень",
+    "description": "Додано: 07.04.2026 23:04",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#bd3511"
+  },
+  {
+    "lat": -40.913,
+    "lng": 138.0894,
+    "title": "Американський женшень",
+    "description": "Додано: 07.04.2026 23:08",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#bd3511"
+  },
+  {
+    "lat": -40.9055,
+    "lng": 137.5086,
+    "title": "Американський женшень",
+    "description": "Додано: 07.04.2026 23:09",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#bd3511"
+  },
+  {
+    "lat": -47.7905,
+    "lng": 129.4775,
+    "title": "Американський женшень",
+    "description": "Додано: 07.04.2026 23:14",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#bd3511"
+  },
+  {
     "lat": -49.344,
     "lng": 126.8228,
     "title": "Корінь лопуха",
@@ -1718,6 +1754,24 @@
     "color": "#8e5db3"
   },
   {
+    "lat": -42.5785,
+    "lng": 141.13,
+    "title": "Корінь лопуха",
+    "description": "Додано: 07.04.2026 23:05",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8e5db3"
+  },
+  {
+    "lat": -41.1684,
+    "lng": 137.4128,
+    "title": "Корінь лопуха",
+    "description": "Додано: 07.04.2026 23:10",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8e5db3"
+  },
+  {
     "lat": -67.3938,
     "lng": 144.8546,
     "title": "Мімоза соромлива",
@@ -1857,6 +1911,24 @@
     "lng": 141.685,
     "title": "Гіркий бур'ян",
     "description": "Додано: 07.04.2026 20:35",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -42.0542,
+    "lng": 141.215,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 07.04.2026 23:05",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -48.0721,
+    "lng": 129.9364,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 07.04.2026 23:13",
     "shape": "default",
     "icon": "plants",
     "color": "#f5820f"
