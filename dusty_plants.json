@@ -3033,6 +3033,105 @@
     "color": "#f5820f"
   },
   {
+    "lat": -69.9044,
+    "lng": 75.0066,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 19:46",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -67.7781,
+    "lng": 70.2712,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:03",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -65.4476,
+    "lng": 68.9638,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:06",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -63.7753,
+    "lng": 68.2082,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:09",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -64.3547,
+    "lng": 67.6896,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:10",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -62.6849,
+    "lng": 68.7501,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:13",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -63.4042,
+    "lng": 69.9264,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:14",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -60.5291,
+    "lng": 69.767,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:21",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -60.2191,
+    "lng": 71.2421,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:26",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -60.2071,
+    "lng": 71.3767,
+    "title": "Гіркий бур'ян",
+    "description": "Додано: 01.05.2026 20:27",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f5820f"
+  },
+  {
+    "lat": -56.6333,
+    "lng": 78.8108,
+    "title": "Степовий мак",
+    "description": "Додано: 01.05.2026 20:39",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#ffdd00"
+  },
+  {
     "lat": -87.5983,
     "lng": 87.3212,
     "title": "Кровоцвіт",
@@ -3505,6 +3604,87 @@
     "lng": 93.8393,
     "title": "Кровоцвіт",
     "description": "Додано: 23.04.2026 18:53",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -68.3186,
+    "lng": 74.1461,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 19:54",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -68.2149,
+    "lng": 73.1429,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 20:00",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -65.74,
+    "lng": 68.3379,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 20:05",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -62.8979,
+    "lng": 68.6594,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 20:12",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -63.2773,
+    "lng": 70.1686,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 20:17",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -59.9026,
+    "lng": 71.5176,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 20:27",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -58.9578,
+    "lng": 70.54,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 20:31",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -56.6611,
+    "lng": 79.0269,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 20:39",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#e2941c"
+  },
+  {
+    "lat": -54.1616,
+    "lng": 82.1309,
+    "title": "Кровоцвіт",
+    "description": "Додано: 01.05.2026 21:00",
     "shape": "default",
     "icon": "plants",
     "color": "#e2941c"
@@ -4198,6 +4378,78 @@
     "lng": 96.2858,
     "title": "Молочай",
     "description": "Додано: 23.04.2026 18:46",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -68.7584,
+    "lng": 73.8333,
+    "title": "Молочай",
+    "description": "Додано: 01.05.2026 19:54",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -68.2228,
+    "lng": 72.5566,
+    "title": "Молочай",
+    "description": "Додано: 01.05.2026 20:01",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -64.6353,
+    "lng": 69.4053,
+    "title": "Молочай",
+    "description": "Додано: 01.05.2026 20:07",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -64.7289,
+    "lng": 67.5722,
+    "title": "Молочай",
+    "description": "Додано: 01.05.2026 20:11",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -62.5306,
+    "lng": 68.9085,
+    "title": "Молочай",
+    "description": "Додано: 01.05.2026 20:13",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -59.9894,
+    "lng": 71.3052,
+    "title": "Молочай",
+    "description": "Додано: 01.05.2026 20:27",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -59.2192,
+    "lng": 71.2685,
+    "title": "Молочай",
+    "description": "Додано: 01.05.2026 20:29",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#8539e0"
+  },
+  {
+    "lat": -58.7668,
+    "lng": 70.7267,
+    "title": "Молочай",
+    "description": "Додано: 01.05.2026 20:31",
     "shape": "default",
     "icon": "plants",
     "color": "#8539e0"
@@ -4990,6 +5242,69 @@
     "lng": 125.2358,
     "title": "Дикий білоцвіт",
     "description": "Додано: 23.04.2026 20:40",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f0f0f0"
+  },
+  {
+    "lat": -63.8336,
+    "lng": 68.3858,
+    "title": "Дикий білоцвіт",
+    "description": "Додано: 01.05.2026 20:08",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f0f0f0"
+  },
+  {
+    "lat": -63.5067,
+    "lng": 67.8904,
+    "title": "Дикий білоцвіт",
+    "description": "Додано: 01.05.2026 20:11",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f0f0f0"
+  },
+  {
+    "lat": -60.842,
+    "lng": 68.8209,
+    "title": "Дикий білоцвіт",
+    "description": "Додано: 01.05.2026 20:22",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f0f0f0"
+  },
+  {
+    "lat": -61.2363,
+    "lng": 68.6668,
+    "title": "Дикий білоцвіт",
+    "description": "Додано: 01.05.2026 20:22",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f0f0f0"
+  },
+  {
+    "lat": -53.4755,
+    "lng": 71.9317,
+    "title": "Дикий білоцвіт",
+    "description": "Додано: 01.05.2026 20:32",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f0f0f0"
+  },
+  {
+    "lat": -54.7935,
+    "lng": 79.6188,
+    "title": "Дикий білоцвіт",
+    "description": "Додано: 01.05.2026 20:41",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#f0f0f0"
+  },
+  {
+    "lat": -54.4305,
+    "lng": 79.8637,
+    "title": "Дикий білоцвіт",
+    "description": "Додано: 01.05.2026 20:41",
     "shape": "default",
     "icon": "plants",
     "color": "#f0f0f0"
@@ -6313,6 +6628,60 @@
     "lng": 125.7166,
     "title": "Відвідано",
     "description": "Додано: 23.04.2026 20:39",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#000000"
+  },
+  {
+    "lat": -60.8467,
+    "lng": 69.6522,
+    "title": "Відвідано",
+    "description": "Додано: 01.05.2026 20:21",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#000000"
+  },
+  {
+    "lat": -60.2106,
+    "lng": 69.9571,
+    "title": "Відвідано",
+    "description": "Додано: 01.05.2026 20:24",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#000000"
+  },
+  {
+    "lat": -59.6404,
+    "lng": 71.5635,
+    "title": "Відвідано",
+    "description": "Додано: 01.05.2026 20:28",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#000000"
+  },
+  {
+    "lat": -55.832,
+    "lng": 79.2954,
+    "title": "Відвідано",
+    "description": "Додано: 01.05.2026 20:40",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#000000"
+  },
+  {
+    "lat": -54.434,
+    "lng": 80.2931,
+    "title": "Відвідано",
+    "description": "Додано: 01.05.2026 20:42",
+    "shape": "default",
+    "icon": "plants",
+    "color": "#000000"
+  },
+  {
+    "lat": -54.4217,
+    "lng": 81.9791,
+    "title": "Відвідано",
+    "description": "Додано: 01.05.2026 21:00",
     "shape": "default",
     "icon": "plants",
     "color": "#000000"
