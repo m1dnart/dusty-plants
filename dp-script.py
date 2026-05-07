@@ -87,14 +87,14 @@ def get_new_entry(plants):
         break
 
     # Вибір рослини
-    print("\nОберіть рослину або просто натисніть Enter, щоб позначити 'Відвідано':")
+    print("\nОберіть рослину або просто натисніть Enter, щоб позначити:")
     for i, name in enumerate(plant_names, 1):
         print(f"{i}. {name}")
 
     while True:
         plant_choice = input("\nВведи номер рослини: ").strip()
         if plant_choice == "":
-            title = "Відвідано"
+            title = "Рослина"
             break
         try:
             title = plant_names[int(plant_choice) - 1]
@@ -109,7 +109,7 @@ def get_new_entry(plants):
         "description": f"Додано: {datetime.now().strftime('%d.%m.%Y %H:%M')}",
         "shape": "default",
         "icon": "plants",
-        "color": plants.get(title, {}).get("color", "#000000"),
+        "color": plants.get(title, {}).get("color", "#80d81b"),
     }
 
 
