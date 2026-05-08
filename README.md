@@ -2,7 +2,7 @@
 
 ## Для використання
 
-1. На сайті <https://jeanropke.github.io/RDOMap/> треба знайти `Import/Export` і там де User Pins імпортувати `dusty_plants.txt`.
+1. На сайті <https://jeanropke.github.io/RDOMap/> треба знайти `Import/Export` і там де `User Pins` імпортувати `dusty_plants.txt`.
 2. В `Utilities` треба увімкнути `User Pins`. Все.
 
 ## Для відміток
